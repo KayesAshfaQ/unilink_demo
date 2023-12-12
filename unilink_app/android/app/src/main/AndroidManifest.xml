@@ -31,7 +31,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
                 android:scheme="https"
-                android:host="mypage.web.app"
+                android:host="unilink-test-app.web.app"
                 android:pathPrefix="/promos/" />
             </intent-filter>
 
