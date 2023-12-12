@@ -28,29 +28,48 @@ class HomePage extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 30,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w600,
                 color: Colors.white,
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 12),
             const Text(
-              "If you don't have the app installed, what are you waiting for?\nDownload it now:",
+              "If you don't have the app installed, what are you waiting for?",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w500,
                 color: Colors.white,
               ),
             ),
-            const SizedBox(height: 20),
-            Image.asset(
-              AssetsPaths.APP_STORE_BANNER,
-              width: 200,
+            const SizedBox(height: 24),
+            const Text(
+              "Download it now:",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w600,
+                color: Colors.white,
+              ),
             ),
-            const SizedBox(height: 20),
-            Image.asset(
-              AssetsPaths.PLAY_STORE_BANNER,
-              width: 200,
+            const SizedBox(height: 16),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  AssetsPaths.APP_STORE_BANNER,
+                  width: 200,
+                  height: 60,
+                  fit: BoxFit.cover,
+                ),
+                const SizedBox(width: 8),
+                Image.asset(
+                  AssetsPaths.PLAY_STORE_BANNER,
+                  width: 200,
+                  height: 60,
+                  fit: BoxFit.cover,
+                ),
+              ],
             ),
           ],
         ),
