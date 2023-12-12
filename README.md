@@ -14,7 +14,7 @@ A demo app to show how to integrate deepLink/appLink/universalLink with flutter
 
 - [x] Android: deepLink
 - [x] Android: appLink
-- [] iOS: universalLink (not implemented yet)
+- [ ] iOS: universalLink (not implemented yet)
 
 ## resource:  [Medium blog](https://medium.com/@pedrostick3/integrate-unilinks-with-flutter-android-applinks-ios-universallinks-c9a1542d6625)
 
